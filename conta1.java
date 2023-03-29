@@ -5,8 +5,10 @@ public class conta1 {
     
     public static void main(String[] args){
         ContaBanco conta1 = new ContaBanco();
-        conta1.tipoConta = "CP";
-        conta1.setSaldo(200);
+        //conta1.tipoConta = "CP";
+        conta1.setTipoConta("CP");
+        //conta1.setSaldo(200);
+        conta1.sacar(200);
         conta1.abrirConta();
         conta1.status();
 
