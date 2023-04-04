@@ -1,0 +1,12 @@
+package com.mycompany.lanchonete;
+
+public class Pedido {
+    
+    public static void main(String[] args) {
+        Lanchonete pedido1 = new Lanchonete();
+        pedido1.cpf = false;
+        
+        pedido1.resumoPedido();
+    }
+    
+}
