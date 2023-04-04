@@ -1,0 +1,10 @@
+package com.mycompany.lanchonete;
+
+public interface Interface {
+   public abstract void liga();
+   public abstract void desliga();
+   public abstract void abrirMenu();
+   public abstract void fecharMenu();
+   public abstract void fazerPedido();
+    
+}
